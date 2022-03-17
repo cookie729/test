@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kouki's Portfolio</title>
+  <link rel="shortcut icon" href="images/favicon.svg">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pc.css">
+  <link rel="stylesheet" href="css/max.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&family=Klee+One:wght@600&family=Short+Stack&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header id="header">
+      <a href="#"><img class="main_logo" src="images/main-logo.svg" alt="logo"></a>
+      <div class="sp_navi">
+        <span class="material-icons" id="open">menu</span>
+      </div>
+
+      <div class="pc_navi">
+        <nav>
+          <ul>
+            <li><a href="#">Top</a></li>
+            <li><a href=#service>Service</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="overlay">
+        <span class="material-icons" id="close">close</span>
+        <nav>
+          <ul>
+            <li><a href="#">Top</a></li>
+            <li><a href=#service>Service</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="main_visual_box">
+        <div class="main-outer">
+          <h1 class="main_visual_text"><span>Let's</span> move on</h1>
+            <div class="outside"></div>
+        </div>
+          <img class="main_visual" src="images/main_visual.jpg" alt="向日葵畑">
+      </section>
+
+
+      <section id="service">
+        <div class="wrapper service_box1">
+          <div class="service_box2"></div>
+          <div class="text service_text">
+            <h2 class="content_title">Service</h2>
+            <h3>サイトコーディング</h3>
+            <div class="service_contents_box">
+              <div class="service_contents">
+                <p>
+                  ・製作費<br>
+                  ・トップページ<br>
+                  ・その他1ページ<br>
+                </p>
+              </div>
+              <div class="service_contents">
+                <p>
+                  20,000円〜<br>
+                  20,000円<br>
+                  10,000円<br>
+                </p>
+              </div>
+            </div>
+            <h3>使用言語</h3>
+            <p class="service_language">
+              ・HTML&CSS<br>
+              ・JavaScript/jQuery<br>
+            </p>
+            <p class="service_asterisk">※費用については相談可能です。
+              <br>お気軽にご相談下さい。
+            </p>
+          </div>
+          <img class="sp_service_img" src="images/service_himawari.svg" alt="サービス向日葵">
+        </div>
+        <img class="desk_work" src="images/deskwork.svg" alt="">
+      </section>
+
+      <div class="about_works">
+        <section class="wrapper" id="about">
+          <div class="text">
+            <h2 class="content_title">About</h2>
+            <h3 class="name">Kouki</h3>
+            <p class="profile">
+              大手家電企業から介護職へ→30歳でWeb業界へ転身。<br>
+              フリーランスでHTML&CSSコーディング、<br>
+              JavaScriptでWeb制作をしています。<br><br>
+              15年以上独学でストリートダンスに打ち込み、<br>大会では入賞・優勝・全国大会への出場経験があります。<br><br>
+              「前を向ける、前に進める」をモットーに,<br>妥協せず、追求し,より良い「ものづくり」をさせて頂きます。<br>
+              お客様の希望を叶えるWeb制作を目指します。
+            </p>
+          </div>
+          <img class="dance_pic" src="images/dance.svg" alt="">
+          <div class="about_box">
+            <img src="images/about_img.jpg" alt="">
+          </div>
+        </section>
+
+        <section class="wrapper" id="works">
+          <h2 class="content_title">Works</h2>
+            <img class="works_himawari" src="images/works.svg" alt="">
+            <div class="works_box"></div>
+          </section>
+        </div>
+
+      <section class="wrapper" id="contact">
+        <div class="plane_box">
+          <h2 class="text content_title">Contact</h2>
+            <div class="plane">
+              <img src="images/contact_plane.svg" alt="紙飛行機">
+            </div>
+        </div>
+
+        <div class="text">
+          <div class="form_box">
+            <form action="#">
+              <div class="form_menu">
+                <label for="name">お名前 *必須</label>
+                <input type="text" id="name" name="your-name">
+              </div>
+
+              <div class="form_menu">
+                <label for="email">メールアドレス *必須</label>
+                <input type="email" id="email" name="your-email">
+              </div>
+
+              <div class="form_menu">
+                <label for="phone">電話番号 *必須</label>
+                <input type="text" id="phone" name="name">
+              </div>
+
+              <div class="form_menu">
+                <label for="message">お問い合わせ内容 *必須</label>
+                <textarea name="your-message" id="message"></textarea>
+              </div>
+
+              <div class="form_menu button">
+                <button type="submit">送信</button>
+              </div>
+            </form>
+          </div>
+          <img class="form_img" src="images/contact_himawari.png" alt="">
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <nav class="footer_navi">
+        <ul>
+          <li><a href=#service>Service</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer_top">
+        <a class="footer_main" href="#">
+          <img src="images/footer_top.svg" alt="">
+          <p>Top</p>
+        </a>
+        <a class="footer_hover" href="#">
+          <img src="images/footer_hover.svg" alt="">
+          <p>Top</p>
+        </a>
+      </div>
+
+      <p class="copy">&copy;2022 Kouki's Portfolio</p>
+      <!-- <img class="cloud" src="images/cloud.svg" alt=""> -->
+
+    </footer>
+    <ul class="top_down_item">
+      <li><img class="top_down" src="images/top_down1.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down2.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down3.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down4.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down5.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down1.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down2.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down3.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down4.svg" alt=""></li>
+      <li><img class="top_down" src="images/top_down5.svg" alt=""></li>
+    </ul>
+  </div>
+
+
+
+
+  <script src="js/main.js"></script>
+<script src="jquery-3.6.0.min.js"></script>
+</body>
+</html>
