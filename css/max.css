@@ -1,0 +1,203 @@
+
+/*---------------------------------
+@media min1040
+---------------------------------*/
+@media (min-width: 1040px) {
+
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .content_title {
+    font-size: 6rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1.1rem
+  }
+/*---------------------------------
+header_box
+---------------------------------*/
+  #header .main_logo {
+    width: 250px;
+  }
+
+  .pc_navi a {
+    font-size: 1.2rem;
+      padding: 5px 16px;
+      margin: 3px;
+      font-size: 1.1rem;
+  }
+
+/*---------------------------------
+main_visual
+---------------------------------*/
+.main_visual_box {
+  position:static;
+  display: flex;
+  height: 700px;
+}
+.main-outer {
+  position: relative;
+  width: 20%;
+  background-image: linear-gradient(#a0cbf7,#cdf7f7 ,#fff);
+}
+
+.main_visual_box img {
+  position: relative;
+  width: 80%;
+  z-index: 0;
+}
+
+.main_visual_box h1 {
+    font-size: 8.5rem;
+    white-space: pre;
+  }
+
+  .main_visual_box h1 span {
+    font-size: 10rem
+  }
+
+  .main_visual_box .outside {
+    height: 700px;
+    overflow: hidden;
+  }
+
+  .main_visual_box .outside::after {
+    left: 0;
+    bottom: 0;
+    white-space: pre;
+    font-size: 10rem;
+    z-index: 30;
+  }
+
+/*---------------------------------
+service
+---------------------------------*/
+#service {
+  margin-bottom: 50px;
+}
+
+.desk_work {
+  width: 500px;
+  margin: 0 auto;
+  right: 0;
+  left: 530px;
+  bottom: -230px;
+}
+
+
+/*---------------------------------
+about_works
+---------------------------------*/
+.about_works {
+  margin-bottom: 185px;
+}
+
+/*---------------------------------
+about
+---------------------------------*/
+
+  .about_box {
+    width: 800px;
+    top: -280px;
+    left: 180px;
+  }
+
+  #about .profile {
+    width: 650px;
+    padding-left: 100px;
+  }
+
+  .dance_pic {
+    width: 550px;
+    position: absolute;
+    top: 200px;
+    right: 600px;
+    z-index: 0;
+  }
+
+  /*---------------------------------
+  works
+  ---------------------------------*/
+  #works .content_title {
+    top: 70px;
+  }
+  .works_box {
+    top: 240px;
+  }
+
+  #works img {
+    top: -130px;
+}
+  
+/*---------------------------------
+contact
+---------------------------------*/
+#contact {
+  margin-bottom: 215px;
+}
+
+/*---------------------------------
+plane
+---------------------------------*/
+  @keyframes move {
+    0% {
+      transform: none;
+    }
+    100% {
+      transform: translate(-1950px, -200px);
+    }
+  }
+  .plane {
+    width: 60px;
+    animation-duration: 13s;
+  }
+/*---------------------------------
+form
+---------------------------------*/
+.form_box {
+  width: 40%;
+}
+
+.form_img {
+  width: 700px;
+}
+
+/*---------------------------------
+form
+---------------------------------*/
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, .4);
+  border-radius: 8px;
+  width: 100%;
+  border: solid 1px #1869BC;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+/*---------------------------------
+footer
+---------------------------------*/
+.footer_navi a {
+  font-size: 1.25rem;
+}
+
+
+/*---------------------------------
+top_down
+---------------------------------*/
+
+.top_down_item img {
+  width: 100px;
+}
+}
